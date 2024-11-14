@@ -23,7 +23,7 @@ export default function Home() {
             <OneProduct />
             <CardsFullWidth />
             <Cards cardsMap={cardsThree}  />
-            <Dev />
+            {/*<Dev />*/}
         </>
     )
 }

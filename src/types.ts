@@ -34,6 +34,15 @@ export interface ButtonProps {
     modalContent?: string | ReactNode
 }
 
+// Layout.tsx + FadeIn.tsx
+
+export interface LayoutProps {
+    children: ReactNode
+    className?: string
+    delay?: number
+    style?: string
+}
+
 // page.tsx
 
 export interface PageProps {

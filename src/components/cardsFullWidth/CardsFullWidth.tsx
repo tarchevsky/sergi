@@ -1,8 +1,9 @@
 import Image from "next/image";
+import FadeIn from "@/components/fadeIn/FadeIn";
 
 const CardsFullWidth = () => {
     return (
-        <div className='grid grid-cols-2 my-[100px] gap-[2vw] sm:gap-[4vw] text-center'>
+        <FadeIn className='grid grid-cols-2 my-[100px] gap-[2vw] sm:gap-[4vw] text-center'>
             <div>
                 <Image src='/cards/10.png' alt='Товар 9' width={500} height={400}
                        className='max-h-[14vh] sm:max-h-[20vh] md:min-h-[50vh] xl:max-h-[60vh] w-full object-cover'/>
@@ -19,7 +20,7 @@ const CardsFullWidth = () => {
                     <p>нет в наличии</p>
                 </div>
             </div>
-        </div>
+        </FadeIn>
     )
 }
 

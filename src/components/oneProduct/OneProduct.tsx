@@ -1,8 +1,9 @@
 import Image from 'next/image'
+import FadeIn from "@/components/fadeIn/FadeIn";
 
 const OneProduct = () => {
     return (
-        <div className='grid grid-cols-[1fr_2fr_1fr] md:grid-cols-3 gap-[1vh] sm:gap-[4vh]'>
+        <FadeIn className='grid grid-cols-[1fr_2fr_1fr] md:grid-cols-3 gap-[1vh] sm:gap-[4vh]'>
             <Image src='/shoes.png' alt='Картинка с Марией' width={300} height={1200} className='max-h-[20vh] md:min-h-[60vh] xl:min-h-[70vh] w-full object-cover' />
             <div>
                 <Image src='/cards/9.png' alt='Картинка с Марией' width={300} height={1200}
@@ -14,7 +15,7 @@ const OneProduct = () => {
             </div>
             <Image src='/me-2.png' alt='Картинка с Марией' width={300} height={1200}
                    className='max-h-[20vh] md:min-h-[60vh] xl:min-h-[70vh] w-full object-cover'/>
-        </div>
+        </FadeIn>
     )
 }
 export default OneProduct

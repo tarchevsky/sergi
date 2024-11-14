@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import FadeIn from "@/components/fadeIn/FadeIn";
 
 interface CardsProps {
     src: string;
@@ -12,7 +13,7 @@ interface CardsMapProps {
 
 const Cards = ({cardsMap}: CardsMapProps) => {
     return (
-        <div className='cont grid grid-cols-2 gap-10 my-[100px]'>
+        <FadeIn className='cont grid grid-cols-2 gap-10 my-[100px]'>
 
             {cardsMap.map((card, index) => (
                 <div key={index}>
@@ -24,7 +25,7 @@ const Cards = ({cardsMap}: CardsMapProps) => {
                     </div>
                 </div>
             ))}
-        </div>
+        </FadeIn>
     )
 }
 
