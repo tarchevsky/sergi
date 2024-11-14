@@ -23,12 +23,10 @@ export default function RootLayout({
     return (
         <html lang="ru">
         <body>
-        <AnimatePresence>
             <Header/>
             {children}
             <ScrollToTop/>
             <Footer/>
-        </AnimatePresence>
         </body>
         </html>
     );
