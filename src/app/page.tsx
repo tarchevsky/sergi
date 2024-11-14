@@ -8,6 +8,7 @@ import CardsFullWidth from '@/components/cardsFullWidth/CardsFullWidth'
 import { cardsThree } from '@/data/cardsThree'
 import Dev from '@/components/dev/Dev'
 import OneProduct from '@/components/oneProduct/OneProduct'
+import Order from "@/components/order/Order";
 
 export const metadata: Metadata = {
 	title: 'Главная'
@@ -24,6 +25,7 @@ export default function Home() {
 			<CardsFullWidth />
 			<Cards cardsMap={cardsThree} />
 			<Dev />
+			<Order />
 		</>
 	)
 }
