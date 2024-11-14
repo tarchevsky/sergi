@@ -8,7 +8,7 @@ const CardsFullWidth = () => {
                 <Image src='/cards/10.png' alt='Товар 9' width={500} height={400}
                        className='max-h-[14vh] sm:max-h-[20vh] md:min-h-[50vh] xl:max-h-[60vh] w-full object-cover'/>
                 <div className='p-6 border-[1px] border-[#9C9797]'>
-                    <div>Название товара</div>
+                    <div>Музыка лесных фей</div>
                     <p>нет в наличии</p>
                 </div>
             </div>
@@ -16,7 +16,7 @@ const CardsFullWidth = () => {
                 <Image src='/cards/11.png' alt='Товар 10' width={500} height={400}
                        className='max-h-[14vh] sm:max-h-[20vh] md:min-h-[50vh] xl:max-h-[60vh] w-full object-cover'/>
                 <div className='p-6 border-2 border-[#9C9797]'>
-                    <div>Название товара</div>
+                    <div>Конница королевы</div>
                     <p>нет в наличии</p>
                 </div>
             </div>

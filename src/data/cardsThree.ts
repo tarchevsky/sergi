@@ -2,25 +2,25 @@ export const cardsThree = [
     {
         src: '/cards/12.png',
         alt: '',
-        name: 'Название товара',
+        name: 'Сказание о пылающем фениксе',
         status: 'Нет в наличии',
     },
     {
         src: '/cards/13.png',
         alt: '',
-        name: 'Название товара',
+        name: 'Ближе к сердцу',
         status: 'Нет в наличии',
     },
     {
         src: '/cards/14.png',
         alt: '',
-        name: 'Название товара',
+        name: 'Дуновение ветра в открытое окно',
         status: 'Нет в наличии',
     },
     {
         src: '/cards/15.png',
         alt: '',
-        name: 'Название товара',
+        name: 'Дельфины',
         status: 'Нет в наличии',
     }
 ]
