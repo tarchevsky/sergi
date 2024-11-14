@@ -1,0 +1,26 @@
+.active {
+    opacity: 1;
+    @apply bg-base-100;
+    transform: translateY(0);
+
+    .item {
+        opacity: 1;
+    }
+}
+
+.logo {
+    @apply mt-20;
+    color: #686867;
+    @apply text-4xl md:text-7xl;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtitle {
+    color: #000;
+    @apply text-xl md:text-4xl;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

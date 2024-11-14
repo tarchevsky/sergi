@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Cormorant Variable', serif;
+    @apply text-[10px] md:text-[16px];
+}
