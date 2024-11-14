@@ -18,7 +18,7 @@ const Cards = ({cardsMap}: CardsMapProps) => {
             {cardsMap.map((card, index) => (
                 <div key={index}>
                     <Image src={card.src} alt={card.alt} width={300} height={300}
-                           className='object-cover w-full md:min-h-[30vh] xl:min-h-[70vh]'/>
+                           className='object-cover w-full md:min-h-[25vh] xl:min-h-[45vh]'/>
                     <div className='p-6 border-[1px] border-[#9C9797] text-center'>
                         <div>{card.name}</div>
                         <p>{card.status}</p>
