@@ -14,7 +14,7 @@ const FadeIn = ({ children, className, delay = 0.1, style }: LayoutProps) => {
 			ref={ref}
 			initial={{ opacity: 0, y: 0 }}
 			animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 0 }}
-			transition={{ duration: 0.3, delay }}
+			transition={{ duration: 1, delay }}
 			{...(className ? { className: cn(className) } : {})}
 			style={style as MotionStyle}
 		>
