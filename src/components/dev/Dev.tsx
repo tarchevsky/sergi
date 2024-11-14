@@ -6,14 +6,14 @@ import Htag from '@/components/Htag/Htag'
 
 const Dev = () => {
 	return (
-		<FadeIn className='grid gap-y-[2vh] mb-14'>
-			<div className='grid grid-cols-[auto_auto_auto_20.5vw] gap-[2vw]'>
+		<FadeIn className='grid gap-y-[3vh] mb-14'>
+			<div className='grid grid-cols-[auto_auto_auto_20.5vw] gap-[3vw]'>
 				<Image
 					src='/dev/1.png'
 					alt='Картинка с инструментами'
 					width={300}
 					height={1200}
-					className='min-h-[35vh] h-full w-full object-cover'
+					className='min-h-[15vh] xl:min-h-[35vh] h-full w-full object-cover'
 				/>
 				<Htag tag='h2' className={cn(styles.heading, 'px-[2vw]')}>
 					ПРОЦЕСС
@@ -25,18 +25,18 @@ const Dev = () => {
 					alt='Картинка с катушкой, серьгами'
 					width={300}
 					height={1200}
-					className='min-h-[35vh] h-full w-full object-cover'
+					className='min-h-[15vh] xl:min-h-[35vh] h-full w-full object-cover'
 				/>
 				<Image
 					src='/dev/3.png'
 					alt='Картинка с катушкой, серьгами'
 					width={300}
 					height={1200}
-					className='min-h-[35vh] h-full w-full object-cover'
+					className='min-h-[15vh] xl:min-h-[35vh] h-full w-full object-cover'
 				/>
 			</div>
-			<div className='cont-left grid grid-cols-[64.5vw_auto]'>
-				<div className={'prose pr-3 mt-14'}>
+			<div className='cont-left flex flex-col-reverse xl:grid xl:grid-cols-[64.5vw_auto]'>
+				<div className={'prose pr-3 mt-14 max-w-[60vw] xl:max-w-[25vw]'}>
 					<p>
 						Добро пожаловать в мир уникальных украшений, где каждое изделие
 						рассказывает свою историю.
@@ -65,7 +65,7 @@ const Dev = () => {
 					alt='Картинка с катушкой, серьгами'
 					width={300}
 					height={1200}
-					className='min-h-[35vh] h-full w-full object-cover'
+					className='h-full xl:min-h-[35vh] max-h-[40vh] w-[48vw] md:w-[33vw] object-cover'
 				/>
 			</div>
 		</FadeIn>

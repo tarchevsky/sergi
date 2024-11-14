@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Order = () => {
     return (
-        <div className='cont-left mb-14 grid grid-cols-[26.3vw_auto]'>
+        <div className='cont md:cont-left mb-14 flex flex-col md:grid md:grid-cols-[35vw_auto] xl:grid-cols-[26.3vw_auto] gap-3'>
             <div>
                 <Htag tag='h2' className={cn(styles.heading)}>
                     РАЗМЕР
@@ -13,7 +13,7 @@ const Order = () => {
                     И
                     СОСТАВ
                 </Htag>
-                <div className={'prose pr-3'}>
+                <div className={'prose'}>
                     <p>
                         Практически все изделия длинные,
                         трех-четырехсекционные, размер 6- 7см.
@@ -28,7 +28,7 @@ const Order = () => {
                     <br/>
                     ЗАКАЗ
                 </Htag>
-                <div className={'prose pr-3'}>
+                <div className={'prose'}>
                     <p>
                         Для заказа свяжитесь со мной в социальных сетях.
                     </p>
@@ -39,7 +39,7 @@ const Order = () => {
                 alt='Портрет Марии с серьгами'
                 width={300}
                 height={1200}
-                className='min-h-[45vh] min-w-[36vw] object-cover'
+                className='min-h-[45vh] mt-8 md:mt-auto w-full md:min-w-[36vw] object-cover'
             />
         </div>
     )
