@@ -1,5 +1,5 @@
 import type {Config} from "tailwindcss";
-import {THEME} from "./src/constants/theme.constants";
+import {THEME, SIZE, SIZE_SMALL} from "./src/constants/theme.constants";
 
 const config: Config = {
     content: [
@@ -16,18 +16,18 @@ const config: Config = {
         function ({addUtilities}: any) {
             const containerUtility = {
                 '.cont': {
-                    'padding-left': '10vw',
-                    'padding-right': '10vw',
+                    'padding-left': [SIZE],
+                    'padding-right': [SIZE],
                 },
                 '.cont-left': {
-                    'padding-left': '10vw',
+                    'padding-left': [SIZE],
             },
                 '.cont-right': {
-                    'padding-right': '10vw',
+                    'padding-right': [SIZE],
                 },
                 '.cont-alt': {
-                    'padding-left': '4vw',
-                    'padding-right': '4vw',
+                    'padding-left': [SIZE_SMALL],
+                    'padding-right': [SIZE_SMALL],
                 },
             }
             addUtilities(containerUtility, ['responsive'])
