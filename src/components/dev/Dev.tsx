@@ -1,7 +1,7 @@
 import FadeIn from '@/components/fadeIn/FadeIn'
 import Image from 'next/image'
 import cn from 'clsx'
-import styles from './Dev.module.scss'
+import styles from '@/components/dev/Dev.module.scss'
 import Htag from '@/components/Htag/Htag'
 
 const Dev = () => {
