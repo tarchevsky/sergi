@@ -2,6 +2,8 @@ import Htag from "@/components/Htag/Htag";
 import cn from "clsx";
 import styles from "@/components/dev/Dev.module.scss";
 import Image from 'next/image'
+import {PiTelegramLogoThin, PiWhatsappLogoThin} from "react-icons/pi";
+import Link from "next/link";
 
 const Order = () => {
     return (
@@ -32,6 +34,14 @@ const Order = () => {
                     <p>
                         Для заказа свяжитесь со мной в социальных сетях.
                     </p>
+                </div>
+                <div className='flex gap-3 mt-8'>
+                    <Link href='https://t.me/maria_psy' aria-label='Ссылка на связь в телеграм'>
+                        <PiTelegramLogoThin size={30} />
+                    </Link>
+                    <Link href='https://wa.me/+79160921215' aria-label='Ссылка на связь в вотсапп'>
+                        <PiWhatsappLogoThin size={30} />
+                    </Link>
                 </div>
             </div>
             <Image
