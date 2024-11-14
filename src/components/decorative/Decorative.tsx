@@ -12,7 +12,7 @@ const Decorative = () => {
 				className='xl:min-h-[90vh] w-full object-cover'
 			/>
 			<div className='flex justify-center bg-[#60514A] py-[2vh] xl:py-[13vh]'>
-				<div className='flex gap-6 justify-center bg-white py-[2vh] sm:py-[2vh] md:py-[6vh] px-[2vw]'>
+				<div className='flex gap-6 justify-center bg-white py-[2vh] sm:py-[2vh] md:py-[6vh] px-[6vw]'>
 					<Image
 						src='/decorative/1.png'
 						alt='Декоративная картинка с мешочком и запиской'
