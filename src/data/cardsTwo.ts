@@ -15,12 +15,12 @@ export const  cardsTwo = [
         src: '/cards/7.png',
         alt: '',
         name: 'Материя и антиматерия',
-        status: 'Нет в наличии',
+        status: 'Есть в наличии',
     },
     {
         src: '/cards/8.png',
         alt: '',
         name: 'Тайна, которую бережно хранишь в памяти ',
-        status: 'Нет в наличии',
+        status: 'Есть в наличии',
     }
 ]
