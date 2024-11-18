@@ -14,7 +14,7 @@ const CardsFullWidth = () => {
 				/>
 				<div className='p-6 border-[1px] border-[#9C9797]'>
 					<div>Музыка лесных фей</div>
-					<p>нет в наличии</p>
+					<p>Под заказ</p>
 				</div>
 			</div>
 			<div>
@@ -27,7 +27,7 @@ const CardsFullWidth = () => {
 				/>
 				<div className='p-6 border-[1px] border-[#9C9797]'>
 					<div>Конница королевы</div>
-					<p>нет в наличии</p>
+					<p>Под заказ</p>
 				</div>
 			</div>
 		</FadeIn>

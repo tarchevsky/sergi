@@ -3,13 +3,13 @@ export const  cardsTwo = [
         src: '/cards/5.png',
         alt: '',
         name: 'Кофейный глинтвейн',
-        status: 'Нет в наличии',
+        status: 'Под заказ',
     },
     {
         src: '/cards/6.png',
         alt: '',
         name: 'Моя милая Гортензия, как там Лазурный берег?',
-        status: 'Нет в наличии',
+        status: 'Под заказ',
     },
     {
         src: '/cards/7.png',

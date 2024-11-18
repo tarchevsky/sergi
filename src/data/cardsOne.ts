@@ -21,18 +21,18 @@ export const cardsOne = [
         src: '/cards/2.png',
         alt: '',
         name: 'Колесница Гелиоса',
-        status: 'Нет в наличии',
+        status: 'Под заказ',
     },
     {
         src: '/cards/3.png',
         alt: '',
         name: 'Таежные колдуньи',
-        status: 'Нет в наличии',
+        status: 'Под заказ',
     },
     {
         src: '/cards/4.png',
         alt: '',
         name: 'Марс и Венера',
-        status: 'Нет в наличии',
+        status: 'Под заказ',
     }
 ]
