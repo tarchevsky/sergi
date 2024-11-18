@@ -18,6 +18,7 @@ export default function Home() {
 	return (
 		<>
 			<Hero />
+			<div className="text-center my-[100px] text-2xl">Уточняйте наличие</div>
 			<Cards cardsMap={cardsOne} />
 			<Decorative />
 			<Cards cardsMap={cardsTwo} />
